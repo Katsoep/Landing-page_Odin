@@ -50,6 +50,9 @@ h1 {
 p{
     font-size: 18px;
 }
+.section{
+    padding: 0px 20vw;
+}
 
  .part-one{
     color: antiquewhite;
@@ -57,10 +60,11 @@ p{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+ 
 }
 .nav-bar{
     display: flex;
-    padding: 20px 200px;
+    padding: 20px 0px;
     justify-content: space-between;
     align-items: center;
 }
@@ -71,7 +75,7 @@ p{
 .intro{
     display: flex;
     background: #1f2937;
-    padding: 100px 200px;
+    padding: 100px 0px;
     gap: 50px;
     max-height: 250px;  
 }
@@ -92,7 +96,7 @@ p{
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 50px 200px 100px;
+    padding: 50px 20vw 100px;
 }
 h2{
     margin-bottom: 40px;
@@ -117,7 +121,7 @@ h2{
 .part-three{
     display: flex;
     flex-direction: column;
-    padding: 100px 540px;
+    padding: 100px 30vw;
     background-color: #e5e7eb;
 }
 .quote{
@@ -133,7 +137,7 @@ h2{
 
 .part-four{
     display: flex;
-    padding: 100px 200px;
+    padding: 100px 20vw;
     justify-content: space-between;
 }
 .cta-box{
@@ -159,5 +163,5 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 200px;
+    padding: 20px 20vw;
 }
