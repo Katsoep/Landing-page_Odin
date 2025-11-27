@@ -86,22 +86,43 @@ p{
     text-align: center;
     display: flex;
     flex-direction: column;
-    border: 2px solid #3882F6 ;
-    padding: 100px 200px;
+    padding: 50px 200px 100px;
 }
 h2{
     margin-bottom: 40px;
 }
 .illustrations{
     display: flex;
-    border: 2px solid #1f2937 ;
-    gap: 30px;
+    gap: 50px;
+    justify-content: center;
 }
 .ill-block{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid #3882F6 ;
+    gap: 10px;
+    max-width: 200px;
+}
+.ill-block img{
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
 
+.part-three{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 540px;
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+    align-self: flex-start;
+}
+.author{
+    font-weight: 900;
+    align-self: flex-end;
 }
 
